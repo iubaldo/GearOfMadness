@@ -58,7 +58,7 @@
 		"value":
 			[{
 				type: "item",
-				code: "gearofmadness:gearofmadness",
+				code: "gear-temporal",
 				quantity: { avg: 0.065, var: 0 }
 			},
 			{
@@ -69,8 +69,8 @@
 			},
 			{
 				type: "item",
-				code: "flaxtwine",
-				quantity: { avg: 1.5, var: 0.5 }
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 0.065, var: 0 }
 			},
 			{
 				type: "item",
@@ -97,7 +97,7 @@
 		"value":
 			[{
 				type: "item",
-				code: "gearofmadness:gearofmadness",
+				code: "gear-temporal",
 				quantity: { avg: 0.08, var: 0 }
 			},
 			{
@@ -108,8 +108,8 @@
 			},
 			{
 				type: "item",
-				code: "flaxtwine",
-				quantity: { avg: 1, var: 2 }
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 0.08, var: 0 }
 			},
 			{
 				type: "item",
@@ -136,7 +136,7 @@
 		"value":
 			[{
 				type: "item",
-				code: "gearofmadness:gearofmadness",
+				code: "gear-temporal",
 				quantity: { avg: 1, var: 0.4 }
 			},
 			{
@@ -147,8 +147,8 @@
 			},
 			{
 				type: "item",
-				code: "flaxtwine",
-				quantity: { avg: 5, var: 1 }
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 1, var: 0.4 }
 			},
 			{
 				type: "item",
