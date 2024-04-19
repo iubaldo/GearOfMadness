@@ -1,0 +1,160 @@
+[
+    {
+        "file": "game:entities/humanoid/player",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            code: "gearsoundaffected"
+        }
+    },
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-normal/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.027, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-deep/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.035, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-tainted/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.05, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-corrupt/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.065, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "replace",
+		"path": "/server/behaviors/9/dropsByType/*-corrupt",
+		"value":
+			[{
+				type: "item",
+				code: "gear-temporal",
+				quantity: { avg: 0.065, var: 0 }
+			},
+			{
+				type: "item",
+				code: "gear-rusty",
+				dropModbyStat: "rustyGearDropRate",
+				quantity: { avg: 0.5, var: 0 }
+			},
+			{
+				type: "item",
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 0.065, var: 0 }
+			},
+			{
+				type: "item",
+				code: "betterdrifters:nightmareblade",
+				quantity: { avg: 0.05, var: 0 }
+			}],
+		"dependsOn": [{"modid": "betterdrifters"}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-nightmare/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.08, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "replace",
+		"path": "/server/behaviors/9/dropsByType/*-nightmare",
+		"value":
+			[{
+				type: "item",
+				code: "gear-temporal",
+				quantity: { avg: 0.08, var: 0 }
+			},
+			{
+				type: "item",
+				code: "gear-rusty",
+				dropModbyStat: "rustyGearDropRate",
+				quantity: { avg: 0.5, var: 1.5 }
+			},
+			{
+				type: "item",
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 0.08, var: 0 }
+			},
+			{
+				type: "item",
+				code: "betterdrifters:nightmareblade",
+				quantity: { avg: 0.075, var: 0 }
+			}],
+		"dependsOn": [{"modid": "betterdrifters"}]
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-double-headed/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 1, "var": 0 }
+		},
+		"dependsOn": [{"modid": "betterdrifters", "invert": true}]		
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "replace",
+		"path": "/server/behaviors/9/dropsByType/*-double-headed",
+		"value":
+			[{
+				type: "item",
+				code: "gear-temporal",
+				quantity: { avg: 1, var: 0.4 }
+			},
+			{
+				type: "item",
+				code: "gear-rusty",
+				dropModbyStat: "rustyGearDropRate",
+				quantity: { avg: 7.5, var: 2.5 }
+			},
+			{
+				type: "item",
+				code: "gearofmadness:gearofmadness",
+				quantity: { avg: 1, var: 0.4 }
+			},
+			{
+				type: "item",
+				code: "betterdrifters:nightmareblade",
+				quantity: { avg: 0.25, var: 0 }
+			}],
+		"dependsOn": [{"modid": "betterdrifters"}]		
+	}
+]

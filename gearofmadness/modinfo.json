@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "gearofmadness",
+  "name": "Gear of Madness",
+  "authors": [
+    "Landar"
+  ],
+  "description": "Adds a counterpart to the temporal gear, as well as an extra sound effect when at low temporal stability",
+  "version": "1.1.0",
+  "dependencies": {
+    "game": ""
+  }
+}
