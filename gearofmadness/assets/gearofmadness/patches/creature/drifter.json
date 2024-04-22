@@ -1,0 +1,62 @@
+[
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-normal/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.026, "var": 0 }
+		}
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-deep/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.03, "var": 0 }
+		}
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-tainted/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.04, "var": 0 }
+		}
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-corrupt/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.046, "var": 0 }
+		}
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-nightmare/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 0.05, "var": 0 }
+		}
+	},
+	{
+		"file": "game:entities/land/drifter",
+		"op": "add",
+		"path": "/server/behaviors/9/dropsByType/*-double-headed/-",
+		"value": {
+			"type": "item",
+			"code": "gearofmadness:gearofmadness",
+			"quantity": { "avg": 1, "var": 0 }
+		}	
+	}
+]

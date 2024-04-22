@@ -1,0 +1,14 @@
+[
+    {
+        "file": "gearofmadness:itemtypes/resource/gearofmadness.json",
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "condition": 
+        { 
+            "when": "GearOfMadness_ItemGearOfMadness_IsEnabled",
+            "isValue": false
+        },
+        "side": "server"
+    }
+]
